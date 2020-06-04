@@ -32,7 +32,7 @@ int main(void)
 
 // Part 2
 // Sales tax: total_sales_tax = sales_tax_rate * item_cost 
-// (note: it’s OK to show the result beyond the hundredths place, we don’t know how to show to the hundredths place yet)
+// (note: itâ€™s OK to show the result beyond the hundredths place, we donâ€™t know how to show to the hundredths place yet)
 
 	printf("\n2. Sales tax\nThank you. Now, please enter the cost of your item and then the tax rate: ");
 	scanf("%lf%lf", &item_cost, &sales_tax_rate);
@@ -63,7 +63,7 @@ int main(void)
 	printf("The total parallel resistance is: \n1 / (1 / R1 + 1 / R2 + 1 / R3) = 1 / (1 / %d + 1 / %d + 1 / %d) = %.3lf.\n", r4, r5, r6, parallel_resistance);
 
 // Part 5
-// Character encoding: encoded_character = (plaintext_character – 'a') + 'A' - shift; shift is an integer 
+// Character encoding: encoded_character = (plaintext_character â€“ 'a') + 'A' - shift; shift is an integer 
 
 	printf("\n5. Character encoding\nPlease input a character and then an integer: ");
 	scanf(" %c%d", &plaintext_character, &shift);
